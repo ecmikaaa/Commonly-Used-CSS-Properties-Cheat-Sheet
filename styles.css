@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.cheat-sheet {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.cheat-sheet th,
+.cheat-sheet td {
+    border: 1px solid #dddddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.cheat-sheet th {
+    background-color: #555;
+    color: #ffffff;
+}
+
+.cheat-sheet tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.cheat-sheet td code {
+    font-family: "Courier New", monospace;
+    background-color: #e7e7e7;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #c7254e;
+    font-weight: 600;
+}
+
+/* Additional styling to improve readability */
+.cheat-sheet tr:hover {
+    background-color: #eaeaea;
+}
